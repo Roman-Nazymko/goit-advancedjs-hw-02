@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promise generator</title>
+    <script type="module" crossorigin src="/goit-advancedjs-hw-02/2-snackbar.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-02/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-02/assets/vendor-BbbuE1sJ.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-02/assets/vendor-CZjNVMTf.css">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-02/assets/styles-5mm_0A5m.css">
+  </head>
+  <body>
+    <div class="container">
+        <p><a href="./index.html">Go back</a></p>
+        <form class="form">
+            <label class="delay">
+              Delay (ms)
+              <input type="number" name="delay" required />
+            </label>
+      
+            <fieldset>
+                <legend>State</legend>
+                <input class="radio-input" type="radio" id="fulfilled" name="state" value="fulfilled" required />
+                <label class="radio-label" for="fulfilled">Fulfilled</label>
+                
+                <input class="radio-input" type="radio" id="rejected" name="state" value="rejected" required />
+                <label class="radio-label" for="rejected">Rejected</label>
+              </fieldset>
+      
+            <button type="submit">Create notification</button>
+    </div>
+    
+    </form>
+  </body>
+</html>
